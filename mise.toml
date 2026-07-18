@@ -1,0 +1,6 @@
+[tools]
+python="3.12.4"
+
+[tasks.venv]
+description="runs local venv(windows)"
+run=".venv\Scripts\Activate.ps1"
