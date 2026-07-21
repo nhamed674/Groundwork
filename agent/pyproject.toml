@@ -8,6 +8,8 @@ dependencies = [
     "langgraph",
     "llama-index",
     "chromadb",
+    "llama-index-vector-stores-chroma",
     "sentence-transformers",
-    "fastapi"
+    "fastapi",
+    "pydantic-settings"
 ]
