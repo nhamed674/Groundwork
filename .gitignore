@@ -1,0 +1,7 @@
+.env
+/.venv
+.vscode
+.envrc
+.md
+uv.lock
+/__pycache__
