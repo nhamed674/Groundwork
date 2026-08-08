@@ -4,3 +4,6 @@ python="3.12.4"
 [tasks.venv]
 description="runs local venv(windows)"
 run=".venv\Scripts\Activate.ps1"
+
+[env]
+OPENAI_API_KEY= "<REDACTED_OPENAI_KEY>"

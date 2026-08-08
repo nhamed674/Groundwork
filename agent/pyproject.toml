@@ -7,9 +7,20 @@ dependencies = [
     "langchain",
     "langgraph",
     "llama-index",
+    "llama-index-readers-docling",
+    "llama-index-readers-file",
     "chromadb",
     "llama-index-vector-stores-chroma",
     "sentence-transformers",
     "fastapi",
-    "pydantic-settings"
+    "pydantic-settings",
+    "python-dotenv",
+    "llama-index-embeddings-huggingface",
+    "pymupdf",
+    "docx2txt",
+    "python-pptx",
+    "beautifulsoup4",
+    "ipykernel",
+    "langchain-openrouter",
+    "ipywidgets"
 ]

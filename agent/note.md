@@ -2,6 +2,8 @@
 - uv (uv sync)
 retrieval/
 
+- re-trigger implement later
+
 ingest.py
 ──────────
 
@@ -28,8 +30,11 @@ vector_store.py
 
 retriever.py
 ────────────
-Load existing index
-Search by query
-Return top-k chunks
+- [x] Load existing index
+- [x] by query
+- [x] top-k chunks
 Nothing about FastAPI
 Nothing about LangGraph
+
+
+
