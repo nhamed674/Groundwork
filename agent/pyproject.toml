@@ -22,5 +22,6 @@ dependencies = [
     "beautifulsoup4",
     "ipykernel",
     "langchain-openrouter",
-    "ipywidgets"
+    "ipywidgets",
+    "uvicorn"
 ]

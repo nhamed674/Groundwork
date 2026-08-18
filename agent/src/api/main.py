@@ -1,0 +1,13 @@
+from fastapi import FastAPI
+from api.routes import router
+
+app = FastAPI(
+    title="Groundwork Agent",
+    version="0.1.0"
+)
+
+app.include_router(router=router)
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
