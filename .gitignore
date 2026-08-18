@@ -4,4 +4,17 @@
 .envrc
 .md
 uv.lock
-/__pycache__
+__pycache__/
+*.py[cod]
+*$py.class
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+agent/.env
+*.env
+.ipynb
+.cursor/

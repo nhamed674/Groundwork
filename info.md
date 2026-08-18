@@ -599,6 +599,10 @@ FastAPI
 | Models | ✅ Complete |
 | Prompt | ✅ Complete |
 | LangChain | ✅ Complete |
-| Citation Validation | ⏳ Planned |
-| LangGraph | ⏳ Planned |
-| FastAPI | ⏳ Planned |
+| Citation Validation | ✅ Complete |
+| LangGraph | ✅ Complete (linear retrieve → generate → validate) |
+| FastAPI | ✅ Complete (`POST /chat`, `GET /health`) |
+| Frontend | ⏳ Next |
+| OpenAPI → TS types | ⏳ Next |
+
+Remaining stages and branching: [docs/implementation-plan.md](docs/implementation-plan.md).
