@@ -30,6 +30,7 @@ class AppConfig(BaseSettings):
     sync_delete: bool = True
     max_tokens: int = 2048
     temperature: float = 0
+    llm_model: str = "deepseek/deepseek-v4-flash-0731"
 
 
 configs= AppConfig()
