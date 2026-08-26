@@ -23,7 +23,7 @@ def extract_citations(answer: str, chunks: list[Chunk]) -> AgentResponse:
     return AgentResponse(answer=answer, 
                          citations=citations, 
                          citation_warning=citation_warning, 
-                         invalid_citations=invalid_ids
+                         invalid_citations=sorted(invalid_ids)
                          )
     
     

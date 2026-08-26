@@ -8,7 +8,7 @@ class AgentState (BaseModel) :
     answer : str =""
     citations : list[Citation] = Field(default_factory=list)
     citation_warning : str | None = None
-    invalid_citations : set[int] | list[int] = Field(default_factory=set )
+    invalid_citations : list[int] = Field(default_factory=list )
     route_taken : str | None = None
 
 
