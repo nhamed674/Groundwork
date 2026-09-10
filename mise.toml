@@ -3,6 +3,4 @@ python="3.12.4"
 
 [tasks.venv]
 description="runs local venv(windows)"
-run=".venv\\Scripts\\Activate.ps1"
-
-# Do not put API keys here — use agent/.env (gitignored)
+run=".venv\Scripts\Activate.ps1"
