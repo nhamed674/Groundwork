@@ -1,20 +1,34 @@
-.env
-/.venv
-/.vscode
-.envrc
-.md
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
 uv.lock
-__pycache__/
-*.py[cod]
-*$py.class
-# Python bytecode
-__pycache__/
-*.py[cod]
-*$py.class
 
-# Environment variables & secrets
+# Secrets & local env
 .env
+.env.*
+!.env.example
 agent/.env
 *.env
-.ipynb
+.envrc
+
+# Editor / IDE
+.vscode/
+.idea/
 .cursor/
+
+# Notebooks / local MLflow data
+*.ipynb
+mlflow/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
